@@ -1,0 +1,53 @@
+{
+    "fields":{
+        "placa":{
+            "points":[75,350,257,382],
+            "psm":7,
+            "threshold":0
+        },
+        "estado":{
+            "points":[865,709,1388,742],
+            "psm":7,
+            "threshold":0
+        },
+        "modelo":{
+            "points":[78,807,788,841],
+            "psm":7,
+            "threshold":0
+        },
+        "especie_tipo":{
+            "points":[78,907,788,939],
+            "psm":7,
+            "threshold":0
+        },
+        "capacidade":{
+            "points":[1407,241,1572,270],
+            "psm":6,
+            "threshold":0,
+            "parms":"-c tessedit_char_whitelist=0123456789"
+        },
+        "data_licenciamento":{
+            "points":[1403,713,1592,744],
+            "psm":7,
+            "threshold":0
+        },
+        "CMT":{
+            "points":[1243,375,1360,415],
+            "psm":7,
+            "threshold":0,
+            "parms":"-c tessedit_char_whitelist=0123456789."
+        },
+        "peso_bruto":{
+            "points":[1405,300,1565,345],
+            "psm":7,
+            "threshold":0,
+            "parms":"-c tessedit_char_whitelist=0123456789."
+        },
+        "eixos":{
+            "points":[1390,375,1475,415],
+            "psm":7,
+            "threshold":0,
+            "parms":"-c tessedit_char_whitelist=0123456789"
+        }
+    }
+}

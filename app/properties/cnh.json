@@ -1,0 +1,30 @@
+{
+    "fields":{
+        "cpf":{
+            "points":[420,392,580,414],
+            "psm":7,
+            "threshold":0
+        },
+        "categoria":{
+            "points":[648,560,710,582],
+            "psm":10,
+            "threshold":0
+        },
+        "validade":{
+            "points":[420,608,550,627],
+            "psm":7,
+            "threshold":0   
+        },
+        "nome":{
+            "points":[195,296,713,320],
+            "psm":7,
+            "threshold":200
+        },
+        "numero_registro":{
+            "points":[194,608,340,632],
+            "psm":7,
+            "threshold":0,
+            "parms":"-c tessedit_char_whitelist=0123456789"
+        }
+    }
+}
